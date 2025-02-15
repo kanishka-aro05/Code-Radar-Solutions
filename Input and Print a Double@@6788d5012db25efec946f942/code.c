@@ -5,7 +5,7 @@ int main() {
 
     scanf("%.f",x);  // Read two words (separated by space)
 
-    printf("You entered: %.4f", x);  // Print the words
+    printf("You entered: %.2f", x);  // Print the words
 
     return 0;
 }
