@@ -11,9 +11,8 @@ int main() {
     scanf("%d", &Age);
 
     printf("Hobby: ");
-    scanf(" %[^\n]s", Hobby);  // Reads a full sentence including spaces
+    scanf(" %s", Hobby);  // Reads a full sentence including spaces
 
-    printf("\nYour Details:\n");
     printf("Name: %s\n", Name);
     printf("Age: %d\n", Age);
     printf("Hobby: %s\n", Hobby);
