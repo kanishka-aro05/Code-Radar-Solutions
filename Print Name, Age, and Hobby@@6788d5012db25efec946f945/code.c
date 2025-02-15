@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
     char q[100]
-    scanf("%c",&q);
+    scanf("%s",&q);
     printf("Name: %c",q);
 
     char w[100];
-    scanf("%c",&w);
+    scanf("%s",&w);
     printf("Age: %c",w);
 
     int p[100];
