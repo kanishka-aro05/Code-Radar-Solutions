@@ -12,6 +12,7 @@
 
     printf("\nHobby: ");
     scanf("%f", &Hobby);
+    return 0;
 
 
  }
