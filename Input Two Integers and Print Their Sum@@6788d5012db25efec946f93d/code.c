@@ -4,6 +4,6 @@
         scanf("%d" a,);
         printf("b:\n");
         scanf("%d" ,);
-        scanf("%d \n" a+b ,);
+        scanf("%d Sum: \n" a+b ,);
 
     }
