@@ -1,11 +1,8 @@
 #include <stdio.h>
-
-int main() {
-    int a, b;  // Declare two integer variables
-
-    scanf("%d %d", &a, &b);  // Read two integers from user input
-
-    printf("%d\nSum: ", a + b);  // Print the sum in the same line
-
+    int main() {
+     int x,y;
+        scanf("%d %d", &x , &y);
+         printf("%d %d\n", x,y); 
+         printf("Sum: \n", x+y);
     return 0;
 }
