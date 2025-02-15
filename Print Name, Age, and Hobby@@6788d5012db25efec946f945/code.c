@@ -6,11 +6,11 @@ int main(){
 
 int p;
     scanf("%d",&p);
-    printf("Hobby: %d",p);
-    
+    printf("Age: %d",p);
+
     char w[100];
     scanf("%s",&w);
-    printf("Age: %s\n",w);
+    printf("Hobby: %s\n",w);
 
     
     return 0;
