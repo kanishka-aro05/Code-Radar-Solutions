@@ -5,18 +5,16 @@ int main() {
     int Age;
 
    scanf("%s", Name);
-    printf("Name: ");
+    printf("Name: %c",Name);
       
 
     scanf("%d", &Age);
-    printf("Age: ");
+    printf("Age: %d",Age);
     
     scanf(" %s", Hobby);  
-    printf("Hobby: ");
+    printf("Hobby: %c",Hobby);
 
-    printf("Name: %s\n", Name);
-    printf("Age: %d\n", Age);
-    printf("Hobby: %s\n", Hobby);
+   
 
     return 0;
 }
