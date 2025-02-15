@@ -3,14 +3,15 @@
 int main() {
     char a[50];  
 
-   scanf("%s", Name);
-    printf("a: %",&a);
+   scanf("%c",&a);
+    printf("Name: %c",a);
       
   int Age;
-    scanf("%d", &Age);
-    printf("Age: %d",&Age);
-     char Hobby[100];
-    scanf("%s", Hobby);  
-    printf("Hobby: %c",&Hobby);
+    scanf("%d",&Age);
+    printf("Age: %d",Age);
+    
+     char y[100];
+    scanf("%c",&y);  
+    printf("hobby: %c",&y);
     return 0;
 }
