@@ -2,11 +2,11 @@
 int main(){
     char q[100];
     scanf("%s",&q);
-    printf("Name: %c",q);
+    printf("Name: %s\n",q);
 
     char w[100];
     scanf("%s",&w);
-    printf("Age: %c",w);
+    printf("Age: %s\n",w);
 
     int p[100];
     scanf("%c",&p);
