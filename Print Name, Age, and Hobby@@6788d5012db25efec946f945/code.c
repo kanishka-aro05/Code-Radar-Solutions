@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    char Name[50], Hobby[50];  // Use arrays for string input
+    char Name[50], Hobby[50];  
     int Age;
 
+   scanf("%s", Name);
     printf("Name: ");
-    scanf("%s", Name);  // Reads a single word (use gets() or fgets() for full names)
+      
 
-    printf("Age: ");
     scanf("%d", &Age);
-
+    printf("Age: ");
+    
+    scanf(" %s", Hobby);  
     printf("Hobby: ");
-    scanf(" %s", Hobby);  // Reads a full sentence including spaces
 
     printf("Name: %s\n", Name);
     printf("Age: %d\n", Age);
