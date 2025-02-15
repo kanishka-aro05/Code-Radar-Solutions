@@ -11,7 +11,8 @@
     scanf("%d", &age);
 
     printf("\nHobby: ");
-    scanf("%f", &Hobby);
+    scanf("%c", &Hobby);
+
     return 0;
 
 
