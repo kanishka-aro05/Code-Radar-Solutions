@@ -5,14 +5,14 @@ int main() {
     int Age;
 
    scanf("%s", Name);
-    printf("Name: %c",Name);
+    printf("Name: %s",Name);
       
 
     scanf("%d", &Age);
     printf("Age: %d",Age);
     
     scanf(" %s", Hobby);  
-    printf("Hobby: %c",Hobby);
+    printf("Hobby: %s",Hobby);
 
    
 
