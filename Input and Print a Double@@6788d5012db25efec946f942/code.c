@@ -3,9 +3,9 @@
 int main() {
     float x;
 
-    scanf("%.4f",x);  // Read two words (separated by space)
+    scanf("%.f",x);  // Read two words (separated by space)
 
-    printf("You entered: %f\n", x);  // Print the words
+    printf("You entered: %.4f", x);  // Print the words
 
     return 0;
 }
