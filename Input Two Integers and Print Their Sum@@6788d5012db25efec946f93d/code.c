@@ -5,7 +5,7 @@ int main() {
 
     scanf("%d %d", &a, &b);  // Read two integers from user input
 
-    printf("%dSum: \n", a + b);  // Print the sum in the same line
+    printf("%d\nSum: ", a + b);  // Print the sum in the same line
 
     return 0;
 }
