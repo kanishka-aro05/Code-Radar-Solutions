@@ -1,19 +1,20 @@
 // Your code here...
 #include <stdio.h>
  int main() {
-    char= Name,Hobby;
+    char Name[50],Hobby[50];
     int=Age;
 
     printf("Name: ");
-    scanf("%c", &name);
+    scanf("%s", &Name);
 
-    printf("Age: ");
-    scanf("%d", &age);
+    printf("\n Age: ");
+    scanf("%d", &Age);
 
-    printf("\nHobby: ");
-    scanf("%c", &Hobby);
+    printf("\n Hobby: ");
+    scanf("%s", &Hobby);
 
     return 0;
+    
 
 
  }
