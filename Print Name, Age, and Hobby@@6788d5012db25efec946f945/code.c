@@ -7,10 +7,10 @@
     printf("Name: ");
     scanf("%s", &Name);
 
-    printf("\n Age: ");
+    printf("\n Age: %d\n ");
     scanf("%d", &Age);
 
-    printf("\n Hobby: ");
+    printf("\n Hobby: %s\n ");
     scanf("%s", &Hobby);
 
     return 0;
